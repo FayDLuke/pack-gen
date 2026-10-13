@@ -29,11 +29,3 @@ version = [1, 0, 0]           # base version, patch is bumped automatically
 min_engine_version = [1, 21, 0]
 type = "resources"            # "resources" or "data"; only needed if auto-detect fails
 ```
-
-## Install
-
-```
-pip wheel . --no-deps -w dist
-```
-
-Copy the wheel from `dist/` into the server's `plugins/` folder.

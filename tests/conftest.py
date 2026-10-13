@@ -1,7 +1,7 @@
 import sys
 import types
 
-# The generator logic never touches the server API, so tests run without endstone installed.
+# Fuck
 try:
     import endstone  # noqa: F401
 except ImportError:
